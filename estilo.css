@@ -1,0 +1,129 @@
+/* Reset básico */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ 
+body {
+
+    height: 100vh;
+
+    background: linear-gradient(135deg, #5f0a87, #a4508b);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: #fff;
+
+}
+ 
+/* Estilo do formulário */
+
+form {
+
+    background: rgba(255, 255, 255, 0.05);
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    backdrop-filter: blur(10px);
+
+    -webkit-backdrop-filter: blur(10px);
+
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+
+    width: 320px;
+
+    text-align: center;
+
+}
+ 
+/* Campos de entrada */
+
+input[type="text"] {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 8px;
+
+    margin-bottom: 16px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+    color: white;
+
+    font-size: 14px;
+
+    outline: none;
+
+}
+ 
+input[type="text"]::placeholder {
+
+    color: #ddd;
+
+}
+ 
+/* Botão estilizado */
+
+button {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: linear-gradient(to right, #ec008c, #fc6767);
+
+    color: white;
+
+    font-weight: bold;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: background 0.3s ease;
+
+}
+ 
+button:hover {
+
+    background: linear-gradient(to right, #fc6767, #ec008c);
+
+}
+ 
+/* Resultado extra */
+
+#outro-resultado {
+
+    margin-top: 10px;
+
+    font-size: 16px;
+
+    color: #ffe3ff;
+
+}
+
+ 
